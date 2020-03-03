@@ -16,7 +16,6 @@ bot.on("message", (message) => {
     var mention = message.mentions.users.first();
 
     if(msg.startsWith(prefix + "info1")) {
-        if(!message.member.roles.find(r => r.name === "Chief Executive Officer")) return message.channel.sendMessage("Seriosly dude atleast you tried good sport :) but this command is only for Founders")
         if (mention == null) { return; }
         message.delete();
         var info1 = new Discord.RichEmbed()
