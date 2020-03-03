@@ -27,4 +27,4 @@ bot.on("message", (message) => {
     }
 })
 
-bot.login("NjgzNzA1NTg3MDQwNzgwMzUx.XlvceA.1Sy1C0QKUa0wltP9aXeDMdRkkU0");
+bot.login("Njg0MjM0NTM4MjAwNzI3NjQ2.Xl3JbQ.B8eC0PytFwHSxZ7mpbkHWQh6bPk");
